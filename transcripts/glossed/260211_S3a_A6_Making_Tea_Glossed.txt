@@ -1,0 +1,154 @@
+# Interlinear Glossed Text
+
+Language:
+Wakhi
+
+Text:
+A6 - Making Tea
+
+Method:
+
+Morpheme-by-morpheme glossing following Leipzig Glossing Rules.
+
+
+Sentence 1
+
+Lexical line:
+
+ska ragnig-eʃ zerdig-ʃ ska din ha yuk-ʃ ra kadin
+
+
+Gloss:
+
+pot fire-? water-? pot LOC put
+
+
+Free translation:
+
+You put the pot on the fire and pour water in.
+
+
+---
+
+Sentence 2
+
+Lexical line:
+
+aval dangk-ti tʃai ra kadin
+
+
+Gloss:
+
+first tea-? tea LOC put
+
+
+Free translation:
+
+First, put the tea in the pot.
+
+
+---
+
+Sentence 3
+
+Lexical line:
+
+yan-iʃ woz zak liter-in mat vita zak ha peʃt
+
+
+Gloss:
+
+then little while hot become boil
+
+
+Free translation:
+
+Then it is left for a little while and it boils.
+
+
+---
+
+Sentence 4
+
+Lexical line:
+
+pisak ʃiru vitja
+
+
+Gloss:
+
+cook start become
+
+
+Free translation:
+
+Then the cooking starts.
+
+
+---
+
+Sentence 5
+
+Lexical line:
+
+yadge-ʃ ra kadin zak woz padze
+
+
+Gloss:
+
+milk-? LOC put little more cook
+
+
+Free translation:
+
+There you pour in a little more milk and let it cook.
+
+
+---
+
+Sentence 6
+
+Lexical line:
+
+yan-iʃ tʃai teor wost
+
+
+Gloss:
+
+then tea ready become
+
+
+Free translation:
+
+Then the tea is ready.
+
+
+# Analysis Notes
+
+Important forms analysed during the project:
+
+-eʃ, -ʃ, -iʃ:
+
+Interpreted cautiously as filler/discourse-like suffixes where grammatical function could not be established.
+
+ra:
+
+Analysed as locative/postposition.
+
+vita, vitja, wost:
+
+Analysed as light verbs expressing:
+
+"happen"
+
+"come to be"
+
+peʃt:
+
+Used for boiling liquid.
+
+padze and pisak:
+
+Associated with cooking processes.
+
+The consultant's explanations were used to avoid assigning unsupported meanings.
