@@ -1,0 +1,15 @@
+transcripts/
+
+├── orthographic/
+│   ├── 260211_S3a_A6_Making_Tea.txt
+│   └── 260211_S3a_A1_Weather_Change.txt
+│
+├── phonetic/
+│   └── 260211_S3a_A6_Making_Tea_IPA.txt
+│
+├── glossed/
+│   └── 260211_S3a_A6_Making_Tea_Glossed.txt
+│
+└── translations/
+    ├── 260211_S3a_A6_Making_Tea_translation.txt
+    └── 260211_S3a_A1_Weather_Change_translation.txt
