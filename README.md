@@ -61,47 +61,58 @@ Temperature in Wakhi functions primarily as a physical descriptive system rather
 ---
 
 ## Repository Structure
-wakhi-temperature-fieldwork/
+```text
+wakhi_language _documentation/
 ├── README.md
 ├── LICENSE
 ├── .gitignore
 │
 ├── metadata/
-│ ├── sessions.csv
-│ ├── speakers.csv
-│ ├── file_index.csv
-│ └── annotation_conventions.md
+│   ├── sessions.csv
+│   ├── speakers.csv
+│   ├── file_index.csv
+│   └── annotation_conventions.md
 │
 ├── annotations/
-│ ├── textgrids/
-│ ├── praat_scripts/
-│ └── annotation_notes.md
+│   ├── textgrids/
+│   ├── praat_scripts/
+│   └── annotation_notes.md
 │
 ├── transcripts/
-│ ├── orthographic/
-│ ├── phonetic/
-│ ├── glossed/
-│ └── translations/
+│   ├── orthographic/
+│   ├── phonetic/
+│   ├── glossed/
+│   └── translations/
 │
 ├── lexicon/
-│ ├── wakhi_temperature_lexicon.csv
-│ ├── domain_mapping.csv
-│ └── analysis_notes.md
+│   ├── wakhi_temperature_lexicon.csv
+│   ├── domain_mapping.csv
+│   └── analysis_notes.md
 │
 ├── docs/
-│ ├── methodology.md
-│ ├── portfolio_report.pdf
-│ ├── examples.md
-│ └── limitations.md
+│   ├── methodology.md
+│   ├── portfolio_report.pdf
+│   ├── examples.md
+│   └── limitations.md
 │
 ├── figures/
 └── scripts/
-├── segment_audio.py
-├── validate_filenames.py
-├── export_metadata.py
-└── build_lexicon.py
+    ├── segment_audio.py
+    ├── validate_filenames.py
+    ├── export_metadata.py
+    └── build_lexicon.py
+```
 
+### Transcripts
 
+Instead of audio files, the dataset includes full linguistic representations:
+
+- Orthographic transcripts  
+- IPA-based phonetic approximations  
+- Interlinear glossed texts  
+- English translations  
+
+All files are aligned with structured annotation tiers.
 
 ## Dataset Background
 
