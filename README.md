@@ -317,11 +317,11 @@ No temperature-based colour metaphors exist.
 ---
 
 ## Limitations
-
+- No raw audio included  
 - Single consultant dataset  
 - Limited dialect variation  
 - Some phonetic uncertainty in early transcription stages  
-- Verb distinctions require further data for confirmation  
+- Verb distinctions require further verification   
 
 ---
 
@@ -349,6 +349,4 @@ This repository demonstrates:
 
 ## Final Note
 
-This project is based on controlled elicitation sessions in a field methods setting. It represents a focused semantic analysis of temperature in Wakhi rather than a complete language description.
-
----
+This project is based on controlled elicitation sessions and is intended to demonstrate analytical and annotation skills in field linguistics. It represents a focused semantic analysis of temperature in Wakhi rather than a complete language description.
