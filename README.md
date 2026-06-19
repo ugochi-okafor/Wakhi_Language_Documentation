@@ -94,19 +94,19 @@ Audio files were segmented and annotated using Praat.
 
 Each TextGrid contains four main tiers:
 
-### Part
+### 1. Part
 
 Identifies the general conversation section.
 
-### Speaker
+### 2. Speaker
 
 Identifies the current speaker.
 
-### Content
+### 3. Content
 
 Contains the transcription or spoken content.
 
-### Comments
+### 4. Comments
 
 Contains additional notes, uncertainty markers, or contextual information.
 
@@ -115,55 +115,46 @@ Contains additional notes, uncertainty markers, or contextual information.
 
 **Symbols used:**
 
-- ```text
-- //  broad transcription
-
-- []  narrow transcription
-
-- ''  loose translation
-
-- ""  quotation or non-Wakhi terms
-
-- |   Praat boundary marker
+a. ```text
+b. //  broad transcription
+c. []  narrow transcription
+d. ''  loose translation
+e. ""  quotation or non-Wakhi terms
+f. |   Praat boundary marker
 
 **Examples:**
-| When we meet each other, we say |
-/ʧɪsxəli/
-'how are you'
-which means "how are you"
 
-metadata/
+- | When we meet each other, we say |
+- /ʧɪsxəli/
+- 'how are you?'
+- which means "how are you?"
+
+#### Metadata
 Audio recording information and dataset organisation.
 
-audio/
+#### Audio
 Original and segmented recordings.
 
-annotations/
+#### Annotations
 Praat TextGrid files and annotation documentation.
 
-transcripts/
+#### Transcripts
 Different levels of transcription and translation.
 
-lexicon/
+#### Lexicon
 Temperature vocabulary and semantic mapping.
 
-docs/
+#### Docs
 Research documentation and portfolio report.
 
-scripts/
+#### Scripts
 Helper scripts for dataset organisation and validation.
 
 
 ---
 
 # 4. Create `.gitignore`
-
-Create:
-.gitignore
-
-
-Paste:
-
+**CODE**
 ```gitignore
 # Python files
 __pycache__/
