@@ -23,7 +23,7 @@ The dataset demonstrates a complete audio annotation workflow including:
 
 The research examined how temperature concepts are expressed in Wakhi and how these expressions are distributed across different semantic domains.
 
-Research questions:
+**Research questions:**
 
 1. Which basic temperature concepts are distinguished in Wakhi?
 
@@ -77,12 +77,10 @@ These files represent complete consultant sessions and should be opened in Praat
 
 The `audio/parts/` folder contains shorter annotated recordings divided into thematic sections.
 
-Example:
+**Example:**
 260211_S3a_A6_Making_Tea.wav
 
-
-Meaning:
-
+**Meaning:**
 - 260211 = date
 - S3 = session number
 - a = recording identifier
@@ -115,19 +113,20 @@ Contains additional notes, uncertainty markers, or contextual information.
 
 ## Annotation Conventions
 
-Symbols used:
+**Symbols used:**
 
-```text
-//  broad transcription
+- ```text
+- //  broad transcription
 
-[]  narrow transcription
+- []  narrow transcription
 
-''  loose translation
+- ''  loose translation
 
-""  quotation or non-Wakhi terms
+- ""  quotation or non-Wakhi terms
 
-|   Praat boundary marker
+- |   Praat boundary marker
 
+**Examples:**
 | When we meet each other, we say |
 /ʧɪsxəli/
 'how are you'
