@@ -6,51 +6,61 @@ This repository documents my work on a field linguistics project focused on temp
 
 The project was completed as part of the Field Linguistics course at Stockholm University and involved collecting, organising, annotating, transcribing, and analysing multilingual speech data from recorded consultant sessions. 
 
-The dataset demonstrates a complete audio annotation workflow including:
+## Important Note on Audio Data
 
-- audio recording organisation
-- speech segmentation
-- Praat TextGrid annotation
-- transcription
-- phonetic analysis
-- interlinear glossing
-- metadata creation
-- semantic domain analysis
-- lexicon development
+No raw audio recordings are included in this repository.
 
+**This is intentional due to:**
+- Privacy considerations for the consultant
+- Ethical handling of field data
+- Focus on transcription, annotation, and analysis workflows rather than raw recordings
 
-## Project Focus
+However, the full dataset is represented through:
 
-The research examined how temperature concepts are expressed in Wakhi and how these expressions are distributed across different semantic domains.
+- Time-aligned Praat TextGrid files  
+- Transcripts (orthographic, phonetic, glossed, and translated)  
+- Structured metadata files  
+- Lexical and semantic analysis outputs  
 
-**Research questions:**
+This ensures the full linguistic workflow remains reproducible without exposing sensitive audio material.
 
-1. Which basic temperature concepts are distinguished in Wakhi?
+---
 
-2. How are temperature expressions distributed across semantic domains such as environment, food, body sensation, behaviour, and colour?
+## Research Focus
+
+The project investigates:
+
+1. How temperature is expressed in Wakhi through lexical and grammatical means  
+2. How these expressions behave across semantic domains such as:
+   - Environment  
+   - Food and liquids  
+   - Body sensation  
+   - Behaviour  
+   - Colour  
 
 The analysis focuses on:
 
 - Scalar temperature systems  
-- Degree marking strategies  
+- Degree marking  
 - Change-of-state expressions  
-- Domain restriction versus metaphorical extension
--  
-## Key Findings
-The dataset reveals:
+- Domain restriction vs metaphorical extension  
 
-- A structured temperature scale from extreme cold to extreme heat  
-- Clear lexical distinctions across temperature ranges  
-- Systematic use of degree marking and change-of-state verbs  
-- Strong contextual dependence in food and environmental domains  
-- No systematic metaphorical extension into behaviour, emotion, or colour  
+---
+
+## Key Findings
+
+- A clear temperature scale exists from extreme cold to extreme heat  
+- Temperature expressions are strongly domain-specific  
+- Food and environmental contexts show the richest usage  
+- Body sensation is expressed indirectly through effects (e.g. burning)  
+- No systematic metaphorical extension into behaviour or colour domains  
+- Intensity is expressed through dedicated lexical markers rather than metaphor  
 
 Temperature in Wakhi functions primarily as a physical descriptive system rather than a metaphorical one.
 
 ---
 
 ## Repository Structure
-
 wakhi-temperature-fieldwork/
 ├── README.md
 ├── LICENSE
@@ -61,10 +71,6 @@ wakhi-temperature-fieldwork/
 │ ├── speakers.csv
 │ ├── file_index.csv
 │ └── annotation_conventions.md
-│
-├── audio/
-│ ├── full_recordings/
-│ └── parts/
 │
 ├── annotations/
 │ ├── textgrids/
@@ -94,6 +100,7 @@ wakhi-temperature-fieldwork/
 ├── validate_filenames.py
 ├── export_metadata.py
 └── build_lexicon.py
+
 
 
 ## Dataset Background
@@ -334,33 +341,3 @@ This repository demonstrates:
 This project is based on controlled elicitation sessions in a field methods setting. It represents a focused semantic analysis of temperature in Wakhi rather than a complete language description.
 
 ---
-
-# 4. Create `.gitignore`
-**CODE**
-```gitignore
-# Python files
-__pycache__/
-*.py[cod]
-
-# Virtual environments
-venv/
-env/
-
-# Operating system files
-.DS_Store
-Thumbs.db
-
-# Temporary files
-*.tmp
-*.log
-
-# Praat temporary files
-*.bak
-
-# IDE files
-.vscode/
-.idea/
-
-# Large audio exports
-*.mp3
-*.m4a
