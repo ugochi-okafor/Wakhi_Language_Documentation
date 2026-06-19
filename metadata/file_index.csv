@@ -1,0 +1,15 @@
+file_name,file_type,session_id,part_id,topic,annotation_status,textgrid_available
+260211_S3a.wav,audio,S3,full_recording,Full Session 3 recording,partially annotated,yes
+260211_S3a_A1_Weather_Change.wav,audio,S3,A1,Weather changes in Wakhan region,fully annotated,yes
+260211_S3a_A2_Good_Weather.wav,audio,S3,A2,Good weather and hiking conditions,fully annotated,yes
+260211_S3a_A3_Winter_Preparation.wav,audio,S3,A3,Winter preparation,fully annotated,yes
+260211_S3a_A4_Favourite_Season.wav,audio,S3,A4,Favourite season,fully annotated,yes
+260211_S3a_A5_Boiling_Water.wav,audio,S3,A5,Boiling water,fully annotated,yes
+260211_S3a_A6_Making_Tea.wav,audio,S3,A6,Process of making tea,fully annotated,yes
+260211_S3a_A7_Water_Too_Hot.wav,audio,S3,A7,Effects of drinking very hot tea,fully annotated,yes
+260211_S3a_A8_Water_Got_Cold.wav,audio,S3,A8,Tea becoming cold,fully annotated,yes
+260211_S3a_A9_Coldest_Day_Ever.wav,audio,S3,A9,Coldest day remembered,fully annotated,yes
+260211_S3a_A10_Hottest_Day_Ever.wav,audio,S3,A10,Hottest day remembered,fully annotated,yes
+260218_S4a.wav,audio,S4,full_recording,Follow-up elicitation session,annotated,yes
+260225_S5a.wav,audio,S5,full_recording,Glossing and lexical clarification session,annotated,yes
+260304_S6a.wav,audio,S6,full_recording,Additional semantic clarification session,annotated,yes
