@@ -4,7 +4,7 @@
 
 This repository documents my work on a field linguistics project focused on temperature expressions in Wakhi, an Eastern Pamir language spoken across the Wakhan region of Pakistan, Afghanistan, Tajikistan, and China.
 
-The project was completed as part of the Field Linguistics course at Stockholm University and involved collecting, organising, annotating, transcribing, and analysing multilingual speech data from recorded consultant sessions.
+The project was completed as part of the Field Linguistics course at Stockholm University and involved collecting, organising, annotating, transcribing, and analysing multilingual speech data from recorded consultant sessions. 
 
 The dataset demonstrates a complete audio annotation workflow including:
 
@@ -27,15 +27,73 @@ The research examined how temperature concepts are expressed in Wakhi and how th
 
 1. Which basic temperature concepts are distinguished in Wakhi?
 
-2. How are temperature expressions used across different domains including:
+2. How are temperature expressions distributed across semantic domains such as environment, food, body sensation, behaviour, and colour?
 
-- environment
-- seasons
-- food and liquids
-- body sensations
-- behaviour
-- emotion
-- colour
+The analysis focuses on:
+
+- Scalar temperature systems  
+- Degree marking strategies  
+- Change-of-state expressions  
+- Domain restriction versus metaphorical extension
+-  
+## Key Findings
+The dataset reveals:
+
+- A structured temperature scale from extreme cold to extreme heat  
+- Clear lexical distinctions across temperature ranges  
+- Systematic use of degree marking and change-of-state verbs  
+- Strong contextual dependence in food and environmental domains  
+- No systematic metaphorical extension into behaviour, emotion, or colour  
+
+Temperature in Wakhi functions primarily as a physical descriptive system rather than a metaphorical one.
+
+---
+
+## Repository Structure
+
+wakhi-temperature-fieldwork/
+├── README.md
+├── LICENSE
+├── .gitignore
+│
+├── metadata/
+│ ├── sessions.csv
+│ ├── speakers.csv
+│ ├── file_index.csv
+│ └── annotation_conventions.md
+│
+├── audio/
+│ ├── full_recordings/
+│ └── parts/
+│
+├── annotations/
+│ ├── textgrids/
+│ ├── praat_scripts/
+│ └── annotation_notes.md
+│
+├── transcripts/
+│ ├── orthographic/
+│ ├── phonetic/
+│ ├── glossed/
+│ └── translations/
+│
+├── lexicon/
+│ ├── wakhi_temperature_lexicon.csv
+│ ├── domain_mapping.csv
+│ └── analysis_notes.md
+│
+├── docs/
+│ ├── methodology.md
+│ ├── portfolio_report.pdf
+│ ├── examples.md
+│ └── limitations.md
+│
+├── figures/
+└── scripts/
+├── segment_audio.py
+├── validate_filenames.py
+├── export_metadata.py
+└── build_lexicon.py
 
 
 ## Dataset Background
@@ -52,9 +110,17 @@ The research examined how temperature concepts are expressed in Wakhi and how th
 - Session 4: 18 February 2026
 - Session 5: 25 February 2026
 - Session 6: 4 March 2026
+---
 
+## Data Description
 
-## Audio Dataset Structure
+### Audio Data
+
+The dataset includes:
+
+- Full session recordings (~30 minutes each)
+- Segmented clips aligned with elicitation tasks
+- Controlled narrative and procedural speech data
 
 ### Full Recordings
 
@@ -62,16 +128,14 @@ The `audio/full_recordings/` folder contains original uncut recordings.
 
 These files represent complete consultant sessions and should be opened in Praat as Long Sound objects for analysis.
 
-**Naming format:**
-260211_S3a.wav
-
+### File Naming Convention
+**Naming format:** 260211_S3a.wav
 
 **Meaning:**
 
 - 260211 = recording date
 - S3 = Session 3
 - a = first recording from that session
-
 
 ## Segmented Audio Parts
 
@@ -87,74 +151,187 @@ The `audio/parts/` folder contains shorter annotated recordings divided into the
 - A6 = annotation part number
 - Making_Tea = topic
 
+---
 
-## Annotation Workflow
+## Annotation System
 
-Audio files were segmented and annotated using Praat.
+All annotations are created using Praat TextGrid format with four tiers:
 
-Each TextGrid contains four main tiers:
+- **Part** → discourse segment or elicitation task  
+- **Speaker** → speaker identifier  
+- **Content** → transcription of speech  
+- **Comments** → analytical notes  
 
-### 1. Part
+### Transcription Conventions
 
-Identifies the general conversation section.
+- `//` broad transcription  
+- `[]` narrow transcription (IPA)  
+- `''` translation  
+- `""` non-Wakhi terms  
+- `|` alignment boundary  
 
-### 2. Speaker
+---
 
-Identifies the current speaker.
+## Methodology
 
-### 3. Content
+### 1. Elicitation Design
 
-Contains the transcription or spoken content.
+Data was collected using structured prompts targeting:
 
-### 4. Comments
+- Seasonal and environmental temperature
+- Bodily sensation and perception
+- Food and liquid temperature (tea-making)
+- Extreme temperature memory recall
+- Metaphorical extension testing
 
-Contains additional notes, uncertainty markers, or contextual information.
+---
 
+### 2. Recording and Segmentation
 
-## Annotation Conventions
+- Recordings made in controlled field sessions  
+- Segmentation completed in Praat  
+- Each file aligned with elicitation tasks  
 
-**Symbols used:**
+---
 
-a. ```text
+### 3. Annotation Workflow
 
-b. //  broad transcription
+- Orthographic transcription first  
+- IPA transcription for phonetic approximation  
+- Interlinear glossing following Leipzig Glossing Rules  
+- Lexical normalisation after repeated verification  
 
-c. []  narrow transcription
+---
 
-d. ''  loose translation
+## Lexical Summary
 
-e. ""  quotation or non-Wakhi terms
+### Cold Domain
 
-f. |   Praat boundary marker
+- `/syr/` → cold  
+- `/syr-i/` → it is cold  
+- `/syr vitk/` → become cold  
+- `/ik rɑŋʃu/` → extremely cold  
 
-**Examples:**
+---
 
-- | When we meet each other, we say |
-- /ʧɪsxəli/
-- 'how are you?'
-- which means "how are you?"
+### Mid Range
 
-#### Metadata
-Audio recording information and dataset organisation.
+- `/ʃlut/` → lukewarm  
 
-#### Audio
-Original and segmented recordings.
+---
 
-#### Annotations
-Praat TextGrid files and annotation documentation.
+### Warm to Hot Domain
 
-#### Transcripts
-Different levels of transcription and translation.
+- `/ʃund/` → warm  
+- `/garm/` → hot  
+- `/mats/` → very hot  
+- `/ɣaˈmats/` → extremely hot  
+- `/ˈtɑːodi mɑts/` → too hot to drink  
 
-#### Lexicon
-Temperature vocabulary and semantic mapping.
+---
 
-#### Docs
-Research documentation and portfolio report.
+### Degree Marking
 
-#### Scripts
-Helper scripts for dataset organisation and validation.
+- `/ɣaftʃ/` → intensifier (very, strongly)  
 
+---
+
+## Semantic Domain Results
+
+### Environment
+
+Temperature terms are heavily used for:
+
+- Seasonal change  
+- Weather description  
+- Landscape conditions  
+
+---
+
+### Food and Liquids
+
+Highly structured temperature descriptions occur in:
+
+- Tea preparation  
+- Boiling processes  
+- Consumption thresholds  
+
+---
+
+### Body Sensation
+
+Temperature is expressed indirectly through effects:
+
+- Burning sensations  
+- Physical discomfort  
+
+---
+
+### Behaviour and Emotion
+
+No temperature metaphors observed.
+
+Alternative lexical items include:
+
+- `/baghet/` → unfriendly person  
+- `/karha/` → anger or conflict  
+
+---
+
+### Colour
+
+No temperature-based colour metaphors exist.
+
+- `/sik/` → red  
+- `/osˈmoni sabs/` → blue/sky green expression  
+- Intensity marked by `/ɣaftʃ/`
+
+---
+
+## Tools Used
+
+- Praat (TextGrid annotation)
+- Manual transcription and verification
+- CSV-based lexicon construction
+- Python scripts for validation and structure checks
+- Markdown documentation system
+
+---
+
+## Limitations
+
+- Single consultant dataset  
+- Limited dialect variation  
+- Some phonetic uncertainty in early transcription stages  
+- Verb distinctions require further data for confirmation  
+
+---
+
+## Outputs Included
+
+- Fully segmented audio corpus  
+- Annotated TextGrid files  
+- Interlinear glossed texts  
+- Structured lexicon dataset  
+- Semantic analysis report  
+
+---
+
+## Purpose
+
+This repository demonstrates:
+
+- Field linguistics data collection  
+- Audio segmentation and annotation  
+- Multilingual transcription and glossing  
+- Semantic domain analysis  
+- Structured linguistic documentation workflow  
+
+---
+
+## Final Note
+
+This project is based on controlled elicitation sessions in a field methods setting. It represents a focused semantic analysis of temperature in Wakhi rather than a complete language description.
 
 ---
 
