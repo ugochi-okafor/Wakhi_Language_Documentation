@@ -40,30 +40,13 @@ Research questions:
 
 ## Dataset Background
 
-Language:
+- **Language:** Wakhi
+- **Language family:** Indo-European, Pamir branch
+- **Consultant:** Sajid Ali Alvi
+- **Profile:** First-language Wakhi speaker from Pakistan who also speaks Urdu, Pashto, and English.
+- **Recording context:** Field methods sessions at Stockholm University, Språkstudion, Room E363.
 
-Wakhi
-
-Language family:
-
-Indo-European, Pamir branch
-
-
-Consultant:
-
-Sajid Ali Alvi
-
-Profile:
-
-First-language Wakhi speaker from Pakistan who also speaks Urdu, Pashto, and English.
-
-
-Recording context:
-
-Field methods sessions at Stockholm University, Språkstudion, Room E363.
-
-
-Recording sessions:
+- **Recording sessions:**
 
 - Session 3: 11 February 2026
 - Session 4: 18 February 2026
@@ -79,11 +62,11 @@ The `audio/full_recordings/` folder contains original uncut recordings.
 
 These files represent complete consultant sessions and should be opened in Praat as Long Sound objects for analysis.
 
-Naming format:
+**Naming format:**
 260211_S3a.wav
 
 
-Meaning:
+**Meaning:**
 
 - 260211 = recording date
 - S3 = Session 3
