@@ -1,0 +1,11 @@
+domain,uses_temperature_lexicon,lexical_items,notes
+environment,yes,"syr; ʃlut; ʃund; garm; mats; ɣamats","Strongest domain of temperature usage; full scalar range present"
+seasons,yes,"syr; ʃund; garm","Co-occurs with spring (bohor) and snow (zem)"
+food_and_liquids,yes,"mats; ɣamats; ˈtɑːodi mɑts","Tea and boiling processes central; strong procedural encoding"
+change_of_state,yes,"vitk; vitɑ; vitja; wost","Core grammatical system for temperature transitions"
+body_sensation,partial,"thit; ˈtɑːodi mɑts","Indirect expression via physical effect rather than body adjectives"
+behaviour,no,"baghet; karha","Separate lexical system replaces metaphorical temperature use"
+emotion,no,"karha","No temperature-based emotional metaphorisation"
+colour,no,"sik","Temperature terms not extended into colour domain"
+metaphor,none,"none","Explicit absence of warm/cold metaphor in behaviour and emotion"
+degree_system,yes,"ɣaftʃ","Independent intensifier used across domains"
