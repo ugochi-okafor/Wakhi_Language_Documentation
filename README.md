@@ -1,65 +1,211 @@
-# Wakhi Temperature Fieldwork and Audio Annotation Portfolio
+# Wakhi Temperature Fieldwork: Audio Annotation and Linguistic Dataset Portfolio
 
-This repository documents a semantic-domain fieldwork project on temperature expressions in Wakhi, completed during a Field Linguistics course at Stockholm University. The project combines consultant recordings, segmentation, transcription, annotation, glossary building, and lexical analysis.
+## Overview
 
-## Project focus
+This repository documents my work on a field linguistics project focused on temperature expressions in Wakhi, an Eastern Pamir language spoken across the Wakhan region of Pakistan, Afghanistan, Tajikistan, and China.
 
-The project investigates how Wakhi expresses temperature across domains such as weather, liquids, body sensation, behaviour, and colour. It uses recorded consultant sessions, scenario-based elicitation, follow-up translation, and interlinear glossing.
+The project was completed as part of the Field Linguistics course at Stockholm University and involved collecting, organising, annotating, transcribing, and analysing multilingual speech data from recorded consultant sessions.
 
-## What is included
+The dataset demonstrates a complete audio annotation workflow including:
 
-- Original session recordings.
-- Segmented audio clips.
-- Praat TextGrid annotations.
-- Orthographic, phonetic, glossed, and translated transcripts.
-- Metadata tables for sessions and files.
-- A temperature lexicon and domain analysis.
-- Notes on annotation conventions and methodological decisions.
+- audio recording organisation
+- speech segmentation
+- Praat TextGrid annotation
+- transcription
+- phonetic analysis
+- interlinear glossing
+- metadata creation
+- semantic domain analysis
+- lexicon development
 
-## Repository structure
 
-- `audio/full_recordings/` — uncut session recordings.
-- `audio/parts/` — segmented clips for individual prompts or topics.
-- `annotations/textgrids/` — Praat annotation files.
-- `transcripts/` — aligned transcription files.
-- `metadata/` — session and file inventories.
-- `lexicon/` — lexical entries and semantic-domain mapping.
-- `docs/` — methodology, examples, limitations, and portfolio report.
-- `scripts/` — helper scripts for validation and segmentation.
+## Project Focus
 
-## Naming conventions
+The research examined how temperature concepts are expressed in Wakhi and how these expressions are distributed across different semantic domains.
 
-Files are named using session date, session number, recording letter, part number, and a short descriptive label.
+Research questions:
 
-Examples:
+1. Which basic temperature concepts are distinguished in Wakhi?
 
-- `260211_S3a_P6_Making_Tea.wav`
-- `260211_S3a_P6_Making_Tea.TextGrid`
+2. How are temperature expressions used across different domains including:
 
-## Annotation conventions
+- environment
+- seasons
+- food and liquids
+- body sensations
+- behaviour
+- emotion
+- colour
 
-- `//` = broad transcription
-- `[]` = narrow transcription
-- `''` = loose translation
-- `""` = quotation or non-Wakhi term
-- `|` = Praat boundary marker
 
-The annotation follows a cautious approach: ambiguous forms are marked conservatively, and uncertain analyses are documented in notes rather than overclaimed.
+## Dataset Background
 
-## Research value
+Language:
 
-The repository demonstrates:
-- speech-data organization,
-- audio segmentation,
-- transcription and glossing,
-- annotation workflow design,
-- semantic analysis,
-- and careful handling of ambiguous language data.
+Wakhi
 
-## Sample outputs
+Language family:
 
-The repository includes examples of:
-- segmented audio,
-- aligned annotations,
-- lexical tables,
-- and a short portfolio report describing methodology and findings.
+Indo-European, Pamir branch
+
+
+Consultant:
+
+Sajid Ali Alvi
+
+Profile:
+
+First-language Wakhi speaker from Pakistan who also speaks Urdu, Pashto, and English.
+
+
+Recording context:
+
+Field methods sessions at Stockholm University, Språkstudion, Room E363.
+
+
+Recording sessions:
+
+- Session 3: 11 February 2026
+- Session 4: 18 February 2026
+- Session 5: 25 February 2026
+- Session 6: 4 March 2026
+
+
+## Audio Dataset Structure
+
+### Full Recordings
+
+The `audio/full_recordings/` folder contains original uncut recordings.
+
+These files represent complete consultant sessions and should be opened in Praat as Long Sound objects for analysis.
+
+Naming format:
+260211_S3a.wav
+
+
+Meaning:
+
+- 260211 = recording date
+- S3 = Session 3
+- a = first recording from that session
+
+
+## Segmented Audio Parts
+
+The `audio/parts/` folder contains shorter annotated recordings divided into thematic sections.
+
+Example:
+260211_S3a_A6_Making_Tea.wav
+
+
+Meaning:
+
+- 260211 = date
+- S3 = session number
+- a = recording identifier
+- A6 = annotation part number
+- Making_Tea = topic
+
+
+## Annotation Workflow
+
+Audio files were segmented and annotated using Praat.
+
+Each TextGrid contains four main tiers:
+
+### Part
+
+Identifies the general conversation section.
+
+### Speaker
+
+Identifies the current speaker.
+
+### Content
+
+Contains the transcription or spoken content.
+
+### Comments
+
+Contains additional notes, uncertainty markers, or contextual information.
+
+
+## Annotation Conventions
+
+Symbols used:
+
+```text
+//  broad transcription
+
+[]  narrow transcription
+
+''  loose translation
+
+""  quotation or non-Wakhi terms
+
+|   Praat boundary marker
+
+| When we meet each other, we say |
+/ʧɪsxəli/
+'how are you'
+which means "how are you"
+
+metadata/
+Audio recording information and dataset organisation.
+
+audio/
+Original and segmented recordings.
+
+annotations/
+Praat TextGrid files and annotation documentation.
+
+transcripts/
+Different levels of transcription and translation.
+
+lexicon/
+Temperature vocabulary and semantic mapping.
+
+docs/
+Research documentation and portfolio report.
+
+scripts/
+Helper scripts for dataset organisation and validation.
+
+
+---
+
+# 4. Create `.gitignore`
+
+Create:
+.gitignore
+
+
+Paste:
+
+```gitignore
+# Python files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+env/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+
+# Praat temporary files
+*.bak
+
+# IDE files
+.vscode/
+.idea/
+
+# Large audio exports
+*.mp3
+*.m4a
