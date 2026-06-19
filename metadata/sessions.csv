@@ -1,0 +1,5 @@
+session_id,date,recording_file,location,context,duration_notes
+S3,2026-02-11,260211_S3a.wav,"Stockholm University, Språkstudion Room E363","Main recording session. Wakhi responses to temperature-related prompts, weather descriptions, tea-making, and daily activities","Approximately 50 minutes"
+S4,2026-02-18,260218_S4a.wav,"Stockholm University, Språkstudion Room E363","Replay and segmentation session. Sentence-level translations, semantic clarification, and metaphorical temperature questions","Approximately 50 minutes"
+S5,2026-02-25,260225_S5a.wav,"Stockholm University, Språkstudion Room E363","Glossing and lexical clarification session. Focus on A2, A3, and A6 texts","Approximately 50 minutes"
+S6,2026-03-04,260304_S6a.wav,"Stockholm University, Språkstudion Room E363","Additional glossing, semantic follow-up questions, and clarification of temperature expressions","Approximately 50 minutes"
