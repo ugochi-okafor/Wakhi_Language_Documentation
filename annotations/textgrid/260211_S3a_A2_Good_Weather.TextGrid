@@ -1,0 +1,108 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 39.37106910218512 
+tiers? <exists> 
+size = 4 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Part" 
+        xmin = 0 
+        xmax = 39.37106910218512 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 39.37106910218512 
+            text = "A2" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "Speaker" 
+        xmin = 0 
+        xmax = 39.37106910218512 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 39.37106910218512 
+            text = "S" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "Content" 
+        xmin = 0 
+        xmax = 39.37106910218512 
+        intervals: size = 14 
+        intervals [1]:
+            xmin = 0 
+            xmax = 2.4336672292172334 
+            text = "" 
+        intervals [2]:
+            xmin = 2.4336672292172334 
+            xmax = 4.1900625 
+            text = "september is a good / the best[?]" 
+        intervals [3]:
+            xmin = 4.1900625 
+            xmax = 5.758083333333333 
+            text = "time" 
+        intervals [4]:
+            xmin = 5.758083333333333 
+            xmax = 9.593339938561895 
+            text = "for hiking because" 
+        intervals [5]:
+            xmin = 9.593339938561895 
+            xmax = 11.378104166666667 
+            text = "it is not that hot" 
+        intervals [6]:
+            xmin = 11.378104166666667 
+            xmax = 13.835708333333333 
+            text = "it is midly hot/midly cold/lukewarm" 
+        intervals [7]:
+            xmin = 13.835708333333333 
+            xmax = 16.085437499999998 
+            text = "it is not that cold either" 
+        intervals [8]:
+            xmin = 16.085437499999998 
+            xmax = 18.969541666666665 
+            text = "so and with it is it like [?]" 
+        intervals [9]:
+            xmin = 18.969541666666665 
+            xmax = 21.403109356037625 
+            text = "with sun [?]" 
+        intervals [10]:
+            xmin = 21.403109356037625 
+            xmax = 23.2114802980886 
+            text = "because the altitude is really high" 
+        intervals [11]:
+            xmin = 23.2114802980886 
+            xmax = 27.940604166666663 
+            text = "thats why because the UV radiation is quite a lot" 
+        intervals [12]:
+            xmin = 27.940604166666663 
+            xmax = 32.542125 
+            text = "thats why the month july is really good" 
+        intervals [13]:
+            xmin = 32.542125 
+            xmax = 35.862833333333334 
+            text = "thats why september is good because" 
+        intervals [14]:
+            xmin = 35.862833333333334 
+            xmax = 39.37106910218512 
+            text = "there is less UV" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "Comment" 
+        xmin = 0 
+        xmax = 39.37106910218512 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 16.085437499999998 
+            text = "" 
+        intervals [2]:
+            xmin = 16.085437499999998 
+            xmax = 18.969541666666665 
+            text = "Sajid did that part word-for-word but never told the full meaning, probably a lot of grammatical function words here" 
+        intervals [3]:
+            xmin = 18.969541666666665 
+            xmax = 39.37106910218512 
+            text = "" 
