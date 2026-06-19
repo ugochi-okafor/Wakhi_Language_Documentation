@@ -1,0 +1,109 @@
+# Phonetic Transcription Example
+
+Language:
+Wakhi
+
+Text:
+A6 - Making Tea
+
+Note:
+
+The IPA transcription represents the analysed segment from the fieldwork assignment. Some forms were revised after repeated listening and discussion because the initial transcription contained uncertainties caused by recording conditions and keyboard noise.
+
+
+Sentence 1
+
+Lexical line:
+
+ska ragnig-eʃ zerdig-ʃ ska din ha yuk-ʃ ra kadin
+
+
+IPA:
+
+[transcription example retained from fieldwork analysis]
+
+
+Translation:
+
+You put the pot on the fire and pour water in.
+
+
+---
+
+Sentence 2
+
+Lexical line:
+
+aval dangk-ti tʃai ra kadin
+
+
+Translation:
+
+First, put the tea in the pot.
+
+
+---
+
+Sentence 3
+
+Lexical line:
+
+yan-iʃ woz zak liter-in mat vita zak ha peʃt
+
+
+Translation:
+
+And then it is left for a little while and it boils.
+
+
+---
+
+Sentence 4
+
+Lexical line:
+
+pisak ʃiru vitja
+
+
+Translation:
+
+Then the cooking starts.
+
+
+---
+
+Sentence 5
+
+Lexical line:
+
+yadge-ʃ ra kadin zak woz padze
+
+
+Translation:
+
+There you pour in a little more milk and let it cook.
+
+
+---
+
+Sentence 6
+
+Lexical line:
+
+yan-iʃ tʃai teor wost
+
+
+Translation:
+
+Then the tea is ready.
+
+
+# Transcription Notes
+
+The first IPA attempt was reviewed during the project.
+
+Main learning points:
+
+- phonetic transcription should be clearly separated from lexical representation
+- repeated listening is required for accurate speech analysis
+- unclear segments should remain marked as uncertain rather than over-interpreted
