@@ -116,10 +116,15 @@ Contains additional notes, uncertainty markers, or contextual information.
 **Symbols used:**
 
 a. ```text
+
 b. //  broad transcription
+
 c. []  narrow transcription
+
 d. ''  loose translation
+
 e. ""  quotation or non-Wakhi terms
+
 f. |   Praat boundary marker
 
 **Examples:**
